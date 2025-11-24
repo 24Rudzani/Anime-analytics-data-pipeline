@@ -15,7 +15,7 @@ def main():
     
     with col1:
         try:
-            st.image(r"C:\Users\mothi\OneDrive\Documents\Data Science - Project Y\anime_header.png.png", 
+            st.image(r"https://raw.githubusercontent.com/24Rudzani/Anime-analytics-data-pipeline/main/anime_header.png.png", 
                     use_container_width=True,
                     caption='')
         except:
