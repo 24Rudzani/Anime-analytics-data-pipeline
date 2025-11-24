@@ -1,6 +1,6 @@
 # Project: Anime Data Pipeline
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://anime-analytics-data-pipeline.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://anime-analytics-data-pipeline-hff6sg32hyebsxuvtkgmik.streamlit.app/)
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-lightgrey)](https://github.com/24Rudzani/Anime-analytics-data-pipeline)
