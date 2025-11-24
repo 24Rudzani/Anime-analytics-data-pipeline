@@ -1,0 +1,15 @@
+# Data files (large)
+*.csv
+
+# Generated files
+*.log
+*.json
+cloud_simulated_storage/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Old backup folders
+cloud_backups/
