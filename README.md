@@ -1,4 +1,4 @@
-# Project Y: Anime Data Pipeline Builder
+# Project: Anime Data Pipeline Builder
 
 ## 📊 Project Overview
 
