@@ -1,0 +1,52 @@
+2026-03-14 16:17:41,555 - INFO - ==================================================
+2026-03-14 16:17:41,555 - INFO - Starting ETL Pipeline (Local Storage Mode)
+2026-03-14 16:17:41,556 - INFO - ==================================================
+2026-03-14 16:17:41,557 - INFO - Ensured directory exists: local_storage\backups
+2026-03-14 16:17:41,557 - INFO - Ensured directory exists: local_storage\reports
+2026-03-14 16:17:41,557 - INFO - Ensured directory exists: local_storage\summaries
+2026-03-14 16:17:41,558 - INFO - EXTRACT: Reading source CSV files...
+2026-03-14 16:17:41,558 - ERROR - anime.csv not found in current directory
+2026-03-14 16:17:41,558 - ERROR - Extraction failed: anime.csv is missing
+2026-03-14 16:17:41,558 - ERROR - ETL Pipeline failed: anime.csv is missing
+2026-03-14 16:31:11,210 - INFO - ==================================================
+2026-03-14 16:31:11,210 - INFO - Starting ETL Pipeline (Local Storage Mode)
+2026-03-14 16:31:11,211 - INFO - ==================================================
+2026-03-14 16:31:11,211 - INFO - Ensured directory exists: local_storage\backups
+2026-03-14 16:31:11,211 - INFO - Ensured directory exists: local_storage\reports
+2026-03-14 16:31:11,212 - INFO - Ensured directory exists: local_storage\summaries
+2026-03-14 16:31:11,212 - INFO - EXTRACT: Reading source CSV files...
+2026-03-14 16:31:11,213 - ERROR - Extraction failed: [Errno 2] No such file or directory: 'anime.xls'
+2026-03-14 16:31:11,213 - ERROR - ETL Pipeline failed: [Errno 2] No such file or directory: 'anime.xls'
+2026-03-14 16:35:29,343 - INFO - ==================================================
+2026-03-14 16:35:29,343 - INFO - Starting ETL Pipeline (Local Storage Mode)
+2026-03-14 16:35:29,343 - INFO - ==================================================
+2026-03-14 16:35:29,344 - INFO - Ensured directory exists: local_storage\backups
+2026-03-14 16:35:29,344 - INFO - Ensured directory exists: local_storage\reports
+2026-03-14 16:35:29,345 - INFO - Ensured directory exists: local_storage\summaries
+2026-03-14 16:35:29,345 - INFO - EXTRACT: Reading source CSV files...
+2026-03-14 16:35:29,346 - ERROR - Extraction failed: [Errno 2] No such file or directory: 'anime.xls'
+2026-03-14 16:35:29,346 - ERROR - ETL Pipeline failed: [Errno 2] No such file or directory: 'anime.xls'
+2026-03-14 16:35:49,358 - INFO - ==================================================
+2026-03-14 16:35:49,359 - INFO - Starting ETL Pipeline (Local Storage Mode)
+2026-03-14 16:35:49,359 - INFO - ==================================================
+2026-03-14 16:35:49,360 - INFO - Ensured directory exists: local_storage\backups
+2026-03-14 16:35:49,360 - INFO - Ensured directory exists: local_storage\reports
+2026-03-14 16:35:49,360 - INFO - Ensured directory exists: local_storage\summaries
+2026-03-14 16:35:49,361 - INFO - EXTRACT: Reading source CSV files...
+2026-03-14 16:35:49,385 - INFO - Extracted 12294 anime records
+2026-03-14 16:38:39,265 - INFO - Extracted 100000 ratings records (sampled from 7813737 total)
+2026-03-14 16:38:39,275 - INFO - TRANSFORM: Cleaning and transforming data...
+2026-03-14 16:38:39,304 - INFO - Transformed 12294 anime records
+2026-03-14 16:38:39,304 - INFO - Transformed 81056 ratings records
+2026-03-14 16:38:39,305 - INFO - LOAD: Saving data to local storage...
+2026-03-14 16:38:39,305 - INFO - Saving transformed data to backups...
+2026-03-14 16:38:53,009 - INFO - Saved 12294 records to local_storage\backups\anime_transformed_20260314_163839.parquet
+2026-03-14 16:38:53,033 - INFO - Saved 81056 records to local_storage\backups\ratings_transformed_20260314_163853.parquet
+2026-03-14 16:38:53,034 - INFO - Generating quality report...
+2026-03-14 16:38:53,046 - INFO - Saved JSON to local_storage\reports\quality_report_20260314_163853.json
+2026-03-14 16:38:53,047 - INFO - Creating summary statistics...
+2026-03-14 16:38:53,053 - INFO - Saved JSON to local_storage\summaries\etl_summary_20260314_163853.json
+2026-03-14 16:38:53,053 - INFO - All data successfully saved to local storage
+2026-03-14 16:38:53,054 - INFO - ==================================================
+2026-03-14 16:38:53,054 - INFO - ETL Pipeline completed successfully!
+2026-03-14 16:38:53,054 - INFO - ==================================================

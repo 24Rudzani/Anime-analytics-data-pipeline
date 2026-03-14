@@ -1,0 +1,36 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+ENV/
+
+# Local storage (keep structure but not files)
+local_storage/
+!local_storage/.gitkeep
+cloud_simulated_storage/
+!cloud_simulated_storage/.gitkeep
+
+# Oracle related
+*.dmp
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+!etl_pipeline.log
+
+# OS
+Thumbs.db
+.DS_Store

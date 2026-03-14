@@ -1,0 +1,7 @@
+pandas
+oracledb
+python-dotenv
+streamlit
+plotly
+pandas
+pyarrow  # For Parquet format support
