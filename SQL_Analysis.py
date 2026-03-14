@@ -3,8 +3,8 @@ import oracledb
 def get_connection():
     """Create connection to Oracle database"""
     return oracledb.connect(
-        user='system',
-        password='241108',
+        user='your_username_here',
+        password='your_password_here',
         dsn='localhost:1521/XE'
      )
 
