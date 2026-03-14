@@ -34,3 +34,6 @@ cloud_simulated_storage/
 # OS
 Thumbs.db
 .DS_Store
+
+.env
+*.env
