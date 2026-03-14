@@ -17,7 +17,7 @@ A complete data engineering solution demonstrating SQL proficiency and ETL pipel
 
 - Write complex SQL queries for data analysis.
 - Build automated ETL pipeline using Python.
-- Integrate cloud storage solutions.
+- Integrate local storage solutions (oracle).
 - Apply data transformation and quality checks.
 - Present technical decisions and problem-solving approaches.
 
@@ -27,7 +27,7 @@ Project-Y/
 ├── ETL_Pipeline.py          # Main ETL pipeline
 ├── SQL_Analysis.py          # SQL queries and analysis  
 ├── Anime_Dashboard.py       # Interactive Streamlit dashboard
-├── Cloud_Integration.py     # Cloud storage handling
+├── Cloud_Integration.py     # Local storage handling
 ├── Cloud_Monitor.py         # Monitoring capabilities
 ├── Load_Data.py             # Data loading functionality
 ├── Project_Runner.py        # Execution coordinator
@@ -36,7 +36,7 @@ Project-Y/
 ├── anime.csv               # Source anime dataset
 ├── rating.csv              # Ratings dataset
 ├── etl_pipeline.log        # Pipeline execution logs
-└── cloud_simulated_storage/ # Simulated cloud storage
+└── cloud_simulated_storage/ # Local storage
     ├── backups/
     ├── reports/
     └── summaries/
@@ -68,8 +68,7 @@ Project-Y/
 ## 🔧 Technologies Used
 - **Database**: Oracle Database
 - **Programming**: Python 3.8+
-- **Libraries**: pandas, oracledb, streamlit, sqlalchemy
-- **Cloud**: Simulated AWS S3/Azure Blob Storage
+- **Libraries**: pandas, oracledb, streamlit
 - **ETL Framework**: Custom Python pipeline
 
 ## 📈 Key Features
@@ -86,10 +85,6 @@ Project-Y/
 - **Load**: Cloud database storage and file uploads
 - **Quality**: Data integrity verification and logging
 
-### ✅ Cloud Integration
-- Simulated cloud storage with backup management
-- Automated file versioning and reporting
-- Storage monitoring and metadata tracking
 
 ### ✅ Dashboard
 - Interactive Streamlit application
@@ -123,7 +118,6 @@ Project-Y/
 
 ### Load Phase
 - Store in Oracle database
-- Upload to cloud storage
 - Verify data integrity
 - Generate backup reports
 
@@ -152,7 +146,6 @@ The analysis revealed:
 ## 🎓 Learning Outcomes
 - Advanced SQL query writing and optimization
 - ETL pipeline design and implementation
-- Cloud storage integration patterns
 - Data quality assurance techniques
 - Project documentation and presentation
 
