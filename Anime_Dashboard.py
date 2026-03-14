@@ -4,6 +4,13 @@ import plotly.express as px
 import oracledb
 from datetime import datetime
 
+# Use st.secrets instead of os.getenv for cloud deployment
+connection = oracledb.connect(
+    user=st.secrets["DB_USER"],
+    password=st.secrets["DB_PASSWORD"],
+    dsn=st.secrets["DB_DSN"]
+)
+
 # Page configuration
 st.set_page_config(
     page_title="Anime Analytics Dashboard",
