@@ -59,7 +59,7 @@ def main():
     
     with col2:
         st.title("Anime Analytics Dashboard")
-        st.markdown("### Live Data from Oracle Database")
+        st.markdown("### Data from Oracle Database")
     
     st.markdown("---")
     
@@ -70,7 +70,7 @@ def main():
         return
     
     # Get real-time metrics from database
-    st.header("📊 Live Database Metrics")
+    st.header("📊 Database Metrics")
     
     # Query for metrics
     metrics_query = """
