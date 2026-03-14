@@ -6,8 +6,8 @@ def get_connection():
     """Create connection to Oracle database"""
     try:
         connection = oracledb.connect(
-            user='system',
-            password='241108',
+            user='your-system-username',
+            password='password',
             dsn='localhost:1521/XE'
         )
         print("Connected to Oracle Database")
